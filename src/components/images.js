@@ -80,108 +80,128 @@ const Images = () => (
       }
     `}
     render={data => (
-      <div style={{
-        maxWidth: "1440px",
-        margin: "0 auto"
-      }}>
+      <div
+        style={{
+          width: "100%",
+        }}
+      >
         <Img
           fluid={data.image1.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Teresa Daining Interior Design Portfolio 2014-2019"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image2.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Table of Contents: 20 Images Total"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image3.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Programming Documents: Placemaking Design"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image4.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Programming Documents: Urban Planning"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image5.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Schematic Documents: Preliminary Layouts"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image6.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Schematic Documents: Preliminary Layouts"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image7.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Installation Documents: Phasing"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image8.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Installation Documents: Component Plans"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image9.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Installation Documents: Furniture Standards"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image10.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Installation Documents: Ancillary Spreadsheets"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image11.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Installation Documents: Core Drill Plans"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image12.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Installation Documents: Area of Work"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image13.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Installation Documents: Detailed Drawings"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image14.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Installation Documents: Project Photography"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image15.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Installation Documents: Project Photography"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image16.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Workplace Strategy: Real Estate Development Assistance"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image17.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Workplace Strategy: Real Estate Development Assistance"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image18.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Workplace Strategy: Real Estate Development Assistance"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image19.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Workplace Strategy: Design Team Lead"
         />
+        <div style={{ borderTop: "1px solid black" }} />
         <Img
           fluid={data.image20.childImageSharp.fluid}
-          style={{ marginBottom: "50px" }}
+          style={{ margin: "50px auto 100px", maxWidth: "1440px" }}
           alt="Workplace Strategy: Living Office Specialist Workshop"
         />
       </div>
